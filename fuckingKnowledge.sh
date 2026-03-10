@@ -11,3 +11,15 @@
    #Here 'command' before ls forces the ls(which is overridden) to run
 EOF
 
+#2️⃣Input direction '< or >' it tells the shell where to send input or output:--->
+  echo "Hello World" > file.txt  #(overwrites)
+                     >> file.txt #(appends)
+  #Here echo will go to file.txt instead of printing.
+
+  #Likewise
+  while read line
+  do echo $line
+  done < file.txt
+  #Here instead of getting input from keyboard it will -get input from file.txt
+
+
