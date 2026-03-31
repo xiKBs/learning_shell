@@ -2,6 +2,12 @@
 
 #chmod usage - changeMod
 
+#0️⃣Basics - Operators in chmod
++ → add permission
+- → remove permission
+= → set exact permission
+
+
 #1️⃣ 3. Numeric (Octal) Mode — Core Concept
 Each permission has value:
 r = 4
@@ -41,4 +47,4 @@ Bash: chmod --reference=file1 file2
 
 
 
-
+#special permission is pending(3):
