@@ -11,7 +11,8 @@ Bash: ls wrongfile 2> error.txt
 
 ✅ Both STDOUT + STDERR:
 Bash: ls file wrongfile > all.txt 2>&1
-👉 2>&1 = send errors to same place as STDOUT
+  👉 2>&1 = send errors to same place as STDOUT
+📌bash: command &> file.txt #same as previous one all output 1&2 goes to file.txt (equivalent to previous one)
 
 :<<EOF
 Second part: 2>&1
