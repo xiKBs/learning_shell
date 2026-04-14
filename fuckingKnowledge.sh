@@ -38,3 +38,6 @@ cmd2 runs in subshell
 Subshell = child process
 Child variables ≠ parent variables
 EOF
+
+
+#apt install --fix-missing & || apt --fix-broken install
